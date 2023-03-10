@@ -1,0 +1,94 @@
+*{
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #721313;
+}
+
+#area-cabecalho{
+padding: 0.1rem;  
+background-color: #721313 ; 
+text-align: center; 
+margin: 3px;
+}
+
+#area-logo, #area-menu{
+    padding: 2rem;
+}
+
+
+#area-menu a{
+    color: rgb(253, 211, 211);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#area-menu a:link, #area-menu a:visited{
+    /* background-color: #ffff; */
+    padding: 2px 40px;
+}
+
+#area-menu a:hover{
+    background-color: rgb(252, 241, 241);
+}
+
+#area-principal{
+    width: 50rem;
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#area-postagem{
+    width: 50rem flex;
+}
+
+
+.postagem{
+    font-size: 1.5rem;
+    padding: 5rem;
+    background-color: rgb(252, 241, 241);
+}
+
+.postagem-imagem{
+    width: 1rem;
+}
+
+.postagem-titulo{
+    font-size: 4rem;
+    color: #721313;
+}
+
+.postagem-data{
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.8rem;
+}
+
+.postagem a{
+    text-decoration: none;
+}
+
+.postagem a:visited, .postagem a:link{
+    color: #a00202;
+}
+
+.postagem a:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+}
+
+footer{
+    width: 100rem flex;
+    margin: 5px auto;
+}
+
+footer p{
+    text-align: center;
+    background-color: #fffafa;
+}
